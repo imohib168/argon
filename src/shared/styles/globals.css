@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #1b254b;
+
+    --text-primary: #ffffff;
+
+    --primary: #3182ce;
+    --secondary: #0b1437;
+
+    --card: #111c44;
+    --popover: #18191d;
+
+    --muted: #a0aec0;
+    --success: #48bb78;
+    --danger: #e53e3e;
+
+    --radius: 0.5rem;
+  }
+
+  /* START - Custom Fonts */
+
+  @font-face {
+    font-family: 'Helvetica';
+    font-weight: 300;
+    src: url('../assets/fonts/Helvetica-Light.ttf');
+  }
+
+  @font-face {
+    font-family: 'Helvetica';
+    font-weight: 400;
+    src: url('../assets/fonts/Helvetica.ttf');
+  }
+
+  @font-face {
+    font-family: 'Helvetica';
+    font-weight: 600;
+    src: url('../assets/fonts/Helvetica-Bold.ttf');
+  }
+
+  /* END - Custom Fonts */
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    @apply font-helvetica;
+  }
+
+  body {
+    @apply bg-background text-white;
+  }
+}
+
+.wrapper {
+  @apply min-h-screen w-full;
+}
+
+.container {
+  @apply mx-auto max-w-screen-2xl;
+}
+
+@layer utilities {
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+
+  .flex-between {
+    @apply flex items-center justify-between;
+  }
+}

@@ -7,9 +7,10 @@ import ChakraLogo from './logos/chakra-logo.svg?react';
 
 // types
 type ComponentType = React.FunctionComponent;
+type StaticImageType = { src: string; alt: string };
 
 interface IllustrationTypes {
-  Document: string;
+  Document: StaticImageType;
 }
 
 interface LogoTypes {
@@ -18,7 +19,7 @@ interface LogoTypes {
 }
 
 export const ILLUSTRATIONS: IllustrationTypes = {
-  Document: DocumentIllustration,
+  Document: { src: DocumentIllustration, alt: 'document-illustration' },
 };
 
 export const LOGOS: LogoTypes = { Argon: ArgonLogo, Chakra: ChakraLogo };

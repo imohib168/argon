@@ -37,7 +37,7 @@ export const socialTrafficColumnsData: ColumnDef<SocialTrafficType>[] = [
 
           <Progress
             value={progress.percentage ?? 0}
-            indicatorColor={`bg-[${progress.indicator}]`}
+            className={`[&>*]:${progress.indicator}`}
           />
         </div>
       );

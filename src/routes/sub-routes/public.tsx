@@ -1,7 +1,9 @@
+import { HomePage } from '@/features/dashboard';
+
 export const publicSubRoutes = [
   {
     index: true,
-    element: <>Dashboard</>,
+    element: <HomePage />,
   },
   {
     path: 'tables',

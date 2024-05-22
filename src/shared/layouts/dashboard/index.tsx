@@ -3,6 +3,7 @@ import { Outlet } from 'react-router-dom';
 
 // component imports
 import { GCSidebar } from '@/shared/components';
+import { ScrollArea } from '@/shared/components/ui/scroll-area';
 
 // component types
 type IProps = {
@@ -16,11 +17,11 @@ const Dashboard: React.FC<IProps> = () => {
         <GCSidebar />
       </div>
 
-      <section className="z-50 px-4 py-4 lg:p-2 w-full overflow-y-auto">
+      <ScrollArea className="z-50 px-4 py-4 lg:p-2 w-full">
         <div className="container">
           <Outlet />
         </div>
-      </section>
+      </ScrollArea>
 
       <div className="top-0 left-0 absolute bg-secondary w-full h-72" />
     </main>

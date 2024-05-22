@@ -12,6 +12,7 @@
     "features/*/pages/*",
     "features/*/services/*",
     "features/*/slices/*",
+    "features/*/types/*",
     "features/*/utils/*",
     "shared/components/*",
     "shared/containers/*",

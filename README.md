@@ -8,6 +8,8 @@ This project is a static custom dashboard built using Vite, React, Typescript, T
 
 ![argon-chakra-dashboard](https://github.com/imohib168/argon/assets/50514728/5ddac52c-5370-4809-9a1b-c6711a1f99e7)
 
+- If you prefer to access the dashboard directly, you can view it at [Hosted URL](https://argon-mu.vercel.app)
+
 ## Boilerplate Repository
 
 This project initially started by cloning the template from [imohib168/react-vite-boilerplate](https://github.com/imohib168/react-vite-boilerplate).

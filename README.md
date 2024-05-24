@@ -4,6 +4,10 @@
 
 This project is a static custom dashboard built using Vite, React, Typescript, Tailwind, and Shadcn. The dashboard features a sidebar with stats analytics displayed in charts, tables, and stat cards.
 
+## Demo Screenshot
+
+![argon-chakra-dashboard](https://github.com/imohib168/argon/assets/50514728/5ddac52c-5370-4809-9a1b-c6711a1f99e7)
+
 ## Boilerplate Repository
 
 This project initially started by cloning the template from [imohib168/react-vite-boilerplate](https://github.com/imohib168/react-vite-boilerplate).
